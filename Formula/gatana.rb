@@ -2,28 +2,28 @@
 class Gatana < Formula
   desc "CLI for Gatana: manage servers, tools, credentials and skills"
   homepage "https://gatana.ai"
-  version "4.5.3"
+  version "5.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gatana-ai/gatana/releases/download/gatana%404.5.3/gatana-aarch64-apple-darwin.tar.gz"
-      sha256 "e5cdf19a4d4c9362bcc9f7ae3d26b48be7a4d7b14312af292e3dd8302b4491c4"
+      url "https://github.com/gatana-ai/gatana/releases/download/gatana%405.0.0/gatana-aarch64-apple-darwin.tar.gz"
+      sha256 "139961e02e26cf5d98c8a5e9e8231dd7c9ff7a8b70af37b9a99fd4966a2514bc"
     end
     on_intel do
-      url "https://github.com/gatana-ai/gatana/releases/download/gatana%404.5.3/gatana-x86_64-apple-darwin.tar.gz"
-      sha256 "5139931e7c2c9bfc94519d2cc246bb789b5fd958870e055248254feab4e1e1c0"
+      url "https://github.com/gatana-ai/gatana/releases/download/gatana%405.0.0/gatana-x86_64-apple-darwin.tar.gz"
+      sha256 "563d3c4fdc22d0d355b3329b90270d71653ed96327dc55b10a33e51c86af405a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gatana-ai/gatana/releases/download/gatana%404.5.3/gatana-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e3257ef5b7a6d25d9c0befe36ce34ab7bef72fc983ecc1baccfab10f8eb153eb"
+      url "https://github.com/gatana-ai/gatana/releases/download/gatana%405.0.0/gatana-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c513a518b807bf658d5cc9c89d4607f74b64238f966bee4cf89f527a74bab5d1"
     end
     on_intel do
-      url "https://github.com/gatana-ai/gatana/releases/download/gatana%404.5.3/gatana-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b8df2a327984d81c8fb2c0ad1e1d8c94640d579552e82084d6af9b3dbe1fc46d"
+      url "https://github.com/gatana-ai/gatana/releases/download/gatana%405.0.0/gatana-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2513b227e134ab6afd3703d461653c33cee6ba6c1d3e8bfa7392984aa400e1ce"
     end
   end
 
